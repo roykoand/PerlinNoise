@@ -9,7 +9,6 @@ import perlin
 def perlin2d_example(
     lin_a: int = 0, lin_b: int = 10, n_samples: int = 600, cmap: str = "YlGnBu"
 ) -> None:
-    print(cmap)
     lin = np.linspace(lin_a, lin_b, n_samples)
     x, y = np.meshgrid(lin, lin)
     img = np.zeros(x.shape)
@@ -20,7 +19,10 @@ def perlin2d_example(
     plt.title(f"Color map = {cmap}")
     plt.imshow(img, cmap=cmap)
     plt.colorbar()
-    plt.savefig(f"perling2d_{cmap}.png")
+    plt.savefig(f"perlin2d_{cmap}.png")
+
+    print(f"COLOR MAP = {cmap}")
+    print(f"PLOT NAME = perlin2d_{cmap}.png")
 
 
 if __name__ == "__main__":

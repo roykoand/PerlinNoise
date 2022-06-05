@@ -25,11 +25,11 @@ python3 visualization.py -[perlin2d | perlin3d] -cmap [cmap_name_str]
 ```
 
 ## Perlin 2d examples:
-![perling2d_YlGnBu](demo/perling2d_YlGnBu.png)
-![perling2d_tab20c](demo/perling2d_tab20c.png)
-![perling2d_Paired](demo/perling2d_Paired.png)
-![perling2d_flag](demo/perling2d_flag.png)
-![perling2d_gist_ncar](demo/perling2d_gist_ncar.png)
+![perlin2d_YlGnBu](demo/perlin2d_YlGnBu.png)
+![perlin2d_tab20c](demo/perlin2d_tab20c.png)
+![perlin2d_Paired](demo/perlin2d_Paired.png)
+![perlin2d_flag](demo/perlin2d_flag.png)
+![perlin2d_gist_ncar](demo/perlin2d_gist_ncar.png)
 
 ## Perlin 3d examples:
 
